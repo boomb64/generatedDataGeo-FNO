@@ -14,23 +14,11 @@ This takes all the data on c-grids and reflects it across the x-axis in order to
 This trains a model on the data that we made using dataPreprocessor.py and dataAugmenter.py
 
 ## Other useful programs: ##
-### checkInputs.py ###
-This just makes sure that the data is fine, it will be removed in future commits.
-
 ### dataResolutionCheck.py ###
 This makes sure that the data provided from flighstream has a big enough resolution to have the data in the c-grid be mathematically sound.
-
-### diagnosticaoa.py ###
-This was used to check that the data worked, it will be removed in future commits.
-
-### aggresiveTrainer.py ###
-This was used as an earlier version of the training model, it will be removed in figure commits.
 
 ### generatedDataVisualizer.py ###
 This shows you what the generated data looks like (note, does not show a prediction, shows ground truth to make sure that everything is working.)
 
 ### modelPredictionVisualizer.py ###
 This shows an image of a model prediciton vs ground truth
-
-### modelTrain.py ###
-Old model training program, it will be removed in future commits
