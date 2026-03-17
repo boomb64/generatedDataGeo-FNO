@@ -3,14 +3,14 @@ This project trains a neural network on custom data generated in Flightstream.
 Data is stored in in the data directory, the cases subdirectory.
 Resulting models are saved in the model directory.
 
-# To run the program: #
-## Run dataPreprocessor.py ##
+## To run the program: ##
+### Run dataPreprocessor.py ###
 This takes the raw data from flightstream and puts it onto a c-grid.
 
-## Run dataAugmenter.py ##
+### Run dataAugmenter.py ###
 This takes all the data on c-grids and reflects it across the x-axis in order to create a larger data set.
 
-## Run augmentedDataTrainer.py ##
+### Run augmentedDataTrainer.py ###
 This trains a model on the data that we made using dataPreprocessor.py and dataAugmenter.py
 
 ## Other useful programs: ##
